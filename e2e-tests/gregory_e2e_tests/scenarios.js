@@ -146,7 +146,7 @@ describe('Gregory second End To End Test', function() {
 	element(by.buttonText("Edit Greg Event")).click();
 	browser.driver.sleep(1000);
 	element(by.buttonText("Delete")).click();
-	browser.driver.sleep(1000);
+	browser.driver.sleep(2000);
 
 	element(by.buttonText("Edit New Test")).click();
 	browser.driver.sleep(1000);
